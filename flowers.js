@@ -3,7 +3,7 @@
 // ================
 
 // Copy the line BELOW this line for the Nightbot command
-$(eval let q="$(querystring)",let rs="",fls=[{fl:"red",fr:"double next flower"},{fl:"blue",fr:"suits"},{fl:"yellow",fr:"marbles"},{fl:"purple",fr:"100 likes double"},{fl:"orange",fr:"sip"},{fl:"mixed",fr:"choose (no black/white/red)"},{fl:"assorted",fr:"down against the clock"},{fl:"black",fr:"5 shots"},{fl:"white",fr:"quarter bottle"}],adjustedQ=q.toLowerCase(),s=fls.find(f=>f.fl==adjustedQ);s?rs=`[${s.fl}] => ${s.fr}`:fls.forEach(f=>{rs+=`[${f.fl}] => ${f.fr} \n`});rs)
+$(eval let q="$(querystring)",rs="",fls=[{fl:"red",fr:"double next flower"},{fl:"blue",fr:"suits"},{fl:"yellow",fr:"marbles"},{fl:"purple",fr:"100 likes double"},{fl:"orange",fr:"sip"},{fl:"mixed",fr:"choose (no black/white/red)"},{fl:"assorted",fr:"down against the clock"},{fl:"black",fr:"5 shots"},{fl:"white",fr:"quarter bottle"}],adjustedQ=q.toLowerCase(),s=fls.find(f=>f.fl==adjustedQ);s?rs=`[${s.fl}] => ${s.fr}`:fls.forEach(f=>{rs+=`[${f.fl}] => ${f.fr} \n`}); rs)
 
 
 
