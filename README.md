@@ -1,1 +1,1 @@
-# linksocarina-nightbot
+# nightbot-commands
