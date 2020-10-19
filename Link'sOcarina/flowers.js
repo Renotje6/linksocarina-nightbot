@@ -20,11 +20,11 @@ let fls = [
   },
   {
     fl: "yellow",
-    fr: "marbles",
+    fr: "half a drink",
   },
   {
     fl: "purple",
-    fr: "100 likes double",
+    fr: "2 fingers",
   },
   {
     fl: "orange",
@@ -40,7 +40,7 @@ let fls = [
   },
   {
     fl: "black",
-    fr: "5 shots",
+    fr: "4 shots",
   },
   {
     fl: "white",
